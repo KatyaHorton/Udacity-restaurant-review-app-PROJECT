@@ -2,6 +2,8 @@
   "restaurants": [{
     "id": 1,
     "name": "Mission Chinese Food",
+
+	"altText": "Crowded main area of the restaurant",
     "neighborhood": "Manhattan",
     "photograph": "1.jpg",
     "address": "171 E Broadway, New York, NY 10002",
@@ -41,6 +43,7 @@
   }, {
     "id": 2,
     "name": "Emily",
+	  "altText": "Pizza with tomatoes and mozzarella",
     "neighborhood": "Brooklyn",
     "photograph": "2.jpg",
     "address": "919 Fulton St, Brooklyn, NY 11238",
@@ -80,6 +83,7 @@
   }, {
     "id": 3,
     "name": "Kang Ho Dong Baekjeong",
+	  "altText": "Shiny empty restaurant hall",
     "neighborhood": "Manhattan",
     "photograph": "3.jpg",
     "address": "1 E 32nd St, New York, NY 10016",
@@ -119,6 +123,7 @@
   }, {
     "id": 4,
     "name": "Katz's Delicatessen",
+	 "altText": "Corner of Katz’s delicatessen at the dark time of the day",
     "neighborhood": "Manhattan",
     "photograph": "4.jpg",
     "address": "205 E Houston St, New York, NY 10002",
@@ -158,6 +163,7 @@
   }, {
     "id": 5,
     "name": "Roberta's Pizza",
+	 "altText": "Guests set at the restaurant with the open kitchen on the back",
     "neighborhood": "Brooklyn",
     "photograph": "5.jpg",
     "address": "261 Moore St, Brooklyn, NY 11206",
@@ -197,6 +203,7 @@
   }, {
     "id": 6,
     "name": "Hometown BBQ",
+	"altText": "Busy open area with wooden chairs and US flag at the wall",
     "neighborhood": "Brooklyn",
     "photograph": "6.jpg",
     "address": "454 Van Brunt St, Brooklyn, NY 11231",
@@ -236,6 +243,7 @@
   }, {
     "id": 7,
     "name": "Superiority Burger",
+	"altText": "Black and white photo of the entrance to the busy burger place",
     "neighborhood": "Manhattan",
     "photograph": "7.jpg",
     "address": "430 E 9th St, New York, NY 10009",
@@ -275,6 +283,7 @@
   }, {
     "id": 8,
     "name": "The Dutch",
+	  "altText": "The Dutch logo on the house above the entrance to the restaurant",
     "neighborhood": "Manhattan",
     "photograph": "8.jpg",
     "address": "131 Sullivan St, New York, NY 10012",
@@ -314,6 +323,7 @@
   }, {
     "id": 9,
     "name": "Mu Ramen",
+	"altText": "Black and white photo of people eating at the restaurants, woman checking her phone",
     "neighborhood": "Queens",
     "photograph": "9.jpg",
     "address": "1209 Jackson Ave, Queens, NY 11101",
@@ -353,6 +363,7 @@
   }, {
     "id": 10,
     "name": "Casa Enrique",
+	"altText": "Empty clean bar in bright white colours with tall chairs next to the bar",
     "neighborhood": "Queens",
     "photograph": "10.jpg",
     "address": "5-48 49th Ave, Queens, NY 11101",

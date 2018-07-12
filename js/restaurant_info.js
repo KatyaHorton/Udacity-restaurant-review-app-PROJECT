@@ -36,7 +36,7 @@ initMap = () => {
 }  
  
 /* window.initMap = () => {
-  fetchRestaurantFromURL((error, restaurant) => {
+  fetchRestaurantFromURL((error, restaurant) => {e
     if (error) { // Got an error!
       console.error(error);
     } else {
