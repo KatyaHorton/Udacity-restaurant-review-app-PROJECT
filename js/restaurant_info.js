@@ -92,8 +92,15 @@ fillRestaurantHTML = (restaurant = self.restaurant) => {
   address.innerHTML = restaurant.address;
 
   const image = document.getElementById('restaurant-img');
-  image.className = 'restaurant-img'
+ const altT = restaurant.altText;	
+ const figCaption = document.getElementById('figCaption');
+  image.className = 'restaurant-img';
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
+  image.alt = altT;	
+    image.title = altT;	
+	figCaption.innerHTML = '<strong>Photo of ' + restaurant.name + ' restaurant</strong><br>' + altT;	
+
+
 
   const cuisine = document.getElementById('restaurant-cuisine');
   cuisine.innerHTML = restaurant.cuisine_type;
