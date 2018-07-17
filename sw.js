@@ -6,7 +6,7 @@ self.addEventListener('install', event => {
       .then(cache => {
         return cache.addAll([
           '/index.html',
-          // '/restaurant.html',
+          '/restaurant.html',
           '/css/styles.css',
           '/js/dbhelper.js',
           '/js/register_sw.js',
@@ -42,12 +42,9 @@ self.addEventListener('fetch', event => {
         });
       });
     }).catch(error => {
-      if (event.request.url.includes('.jpg')) {
-        return caches.match('/img/fixed/offline_img1.png');
-      }
-      return new Response('Not connected to the internet', {
+      return new Response('No internet connection', {
         status: 404,
-        statusText: "Not connected to the internet"
+        statusText: "No internet connection"
       });
     })
   );
